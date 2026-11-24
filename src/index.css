@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e1115;
+}
+
+@theme {
+  --color-concrete: #f2f2f2;
+  --color-buttercup: #f6a823;
+  --color-bunker: #0e1115;
+  --color-shark: #272c34;
+  --color-shark-light: #22272f;
+  --color-waterloo: #818898;
+  --color-alto: #d9d9d9;
+  --color-woodsmoke: #171a21;
+}
